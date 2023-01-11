@@ -5,6 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background: #f1f1f1;
 }
 
 a {
@@ -438,7 +439,7 @@ h6 {
   width: 100%;
   height: 100vh;
   /* background: url("../images/IMG-20220925-WA0072.jpg")  top center; */
-  background: #1a0fecc0;
+  background: #033980fa;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -481,7 +482,7 @@ h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 #hero .btn-get-started, .about .btn-get-started {
@@ -526,6 +527,7 @@ h6 {
 }
 #hero .boxes p{
   font-weight: 500;
+  font-size: 1.08rem;
 }
 
 
@@ -613,20 +615,30 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about{
+  background: #f1f1f1;
+}
+
 .about .container {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding-bottom: 15px;
+  background: #f1f1f1;
 }
 
+.about.counter{
+  background: #033980fa;
+  color: #fff;
+}
 .about .count-box {
   padding: 60px 0;
   width: 100%;
+  background:#033980fa;
 }
 
 .about .count-box i {
   display: block;
   font-size: 48px;
-  color: #a1bdd1;
+  color: #fff;
   float: left;
   line-height: 0;
 }
@@ -636,7 +648,7 @@ section {
   line-height: 25px;
   display: block;
   font-weight: 700;
-  color: #365870;
+  color: #fff;
   margin-left: 60px;
 }
 
@@ -646,7 +658,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #2e4b5e;
+  color: #fff;
 }
 
 .about .count-box a {
@@ -669,6 +681,14 @@ section {
   margin-bottom: 40px;
   margin: 30px auto;
 
+} 
+.counter h1{
+  font-weight: bold;
+  font-size:2.2rem;
+}
+.counter p{
+  font-weight: normal;
+  font-size: 1.2rem;
 }
 .about .count-box .fa-person{
   margin-top: 30px;
@@ -1013,16 +1033,20 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services{
+  background: #f1f1f1;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  background: #fff;
+  background: #033980fa;
 }
 
 .services .icon-box i {
   float: left;
-  color: #5c8eb0;
+  color: #fff;
   /* color: #e03a3d9f; */
   font-size: 40px;
   line-height: 0;
@@ -1032,11 +1056,11 @@ section {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .services .icon-box h4 a {
-  color: #365870;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1047,7 +1071,9 @@ section {
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
 }
 
 .services .icon-box:hover h4 a {
@@ -1059,7 +1085,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: #0a9ef3be;
+  background: #033980fa;
   /* background: url("../images/logo-c.jpg") no-repeat; */
   background-position: center center;
   background-size: cover;
@@ -1073,7 +1099,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(13, 20, 26, 0.8);
+  /* background: rgba(13, 20, 26, 0.8); */
 }
 
 .testimonials .section-header {
@@ -1460,8 +1486,9 @@ background-color:#da282b;
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
+  /* color: red; */
 }
 .contact .contact-logo{
   width: 150px;
@@ -1651,7 +1678,7 @@ background-color:#da282b;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0f03eec0; 
+  background: #033980fa; 
 
   padding: 0 0 30px 0;
   color: #fff;
@@ -1659,7 +1686,7 @@ background-color:#da282b;
 }
 
 #footer .footer-top {
-  background: #4941e9c0;
+  background: #033980fa;
   /* border-bottom: 1px solid #1d303c; */
   padding: 60px 0 30px 0;
 }
