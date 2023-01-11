@@ -180,6 +180,11 @@ h6 {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .navbar ul {
+  background: rgb(230, 228, 228) !important;
+  }
+}
 .navbar li {
   position: relative;
 }
