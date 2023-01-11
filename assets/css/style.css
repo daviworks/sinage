@@ -146,20 +146,31 @@ h6 {
   color: #fff;
 }
 
+#header .logo-p{
+  letter-spacing: 1px;
+  margin-top: 2px;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-left: -8px;
+  color: #fff;
+
+}
+
 #header .logo img {
   max-height: 40px;
 }
 
 .logo-text{
   width: 170px;
-  font-size: 15px;
+  font-size: 15.5px;
   color: rgb(255, 255, 255);
   letter-spacing: 0.2px;
 
 }
 .logo-text .txt{
-  font-size: 14px;
+  font-size: 14.3px;
   letter-spacing: 0.2px;
+  text-transform: uppercase;
 }
 
 /*--------------------------------------------------------------
@@ -529,10 +540,11 @@ h6 {
 #hero .boxes h2{
   margin-bottom: 10px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 #hero .boxes p{
   font-weight: 500;
-  font-size: 1.08rem;
+  foint-size: 1.08rem;
 }
 
 
